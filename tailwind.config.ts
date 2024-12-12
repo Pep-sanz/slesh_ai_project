@@ -11,8 +11,14 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#46AEFE"
       },
+      boxShadow: {
+        "bottom-search": "0 40px 50px -30px rgb(0 0 0 / 0.1)",
+        "bottom-navigation": "0 20px 40px -25px rgb(0 0 0 / 0.1)",
+      }
     },
   },
   plugins: [],
+  darkMode: "class"
 } satisfies Config;
