@@ -12,11 +12,11 @@ export default function Navbar() {
   return (
     <div className='flex justify-between items-center backdrop-blur-sm px-[230px] w-full h-20 fixed top-0 left-0 right-0 z-50'>
         <Link href="/" className='flex gap-2'>
-            <Image src="/icons/slesh.png" alt="Vercel Logo" width={43} height={43} />
+            <Image src="/icons/slesh.png" alt="slesh Logo" width={43} height={43} />
             <span className='text-xl mt-1 dark:text-foreground text-primary'>Slesh AI</span>
         </Link>
-        <button onClick={()=> setTheme(theme === "light" ? "dark" : "light")}>theme</button>
         <NavItems />
+        <button onClick={()=> setTheme(theme === "light" ? "dark" : "light")} className="bg-cyan-500 p-2 rounded-md text-black ">{theme === "light" ? "Dark Mode": "light Mode" }</button>
     </div>
   )
 }
