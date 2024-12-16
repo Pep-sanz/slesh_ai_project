@@ -7,7 +7,7 @@ import { ThemeProvider as NextThemesProvider } from "next-themes"
 export default function Layouts({children}: {children: React.ReactNode}) {
   return (
     <div>
-      <NextThemesProvider attribute="class" defaultTheme="system">
+      <NextThemesProvider attribute="class" defaultTheme="system" enableSystem>
         <Navbar />
           <div className="">
               <main className='min-h-screen w-full'>

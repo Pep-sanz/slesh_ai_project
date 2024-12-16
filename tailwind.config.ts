@@ -13,16 +13,19 @@ export default {
         "1051": "1051px"
       },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-        primary: "#46AEFE"
+        background: 'hsl(var(--background))',
+  			foreground: 'hsl(var(--foreground))',
+        primary: 'hsl(var(--primary))',
       },
       boxShadow: {
         "bottom-search": "0 40px 50px -30px rgb(0 0 0 / 0.1)",
         "bottom-navigation": "0 20px 40px -25px rgb(0 0 0 / 0.1)",
       }
     },
+    fontFamily: {
+      inter: ["var(--font-inter)", "sans-serif"],
+    },
   },
   plugins: [],
-  darkMode: "class"
+  darkMode: ["class"],
 } satisfies Config;

@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function SmartSearch() {
   return (
-    <div className="md:min-h-screen py-24 w-full bg-gradient-to-bl dark:from-background from-foreground from-85% dark:to-primary/20 to-[#CBEFFF] grid grid-rows-2 md:grid-rows-1 md:grid-cols-2">
+    <div className="md:min-h-screen py-24 w-full bg-gradient-to-bl from-background from-85% dark:to-primary/20 to-[#CBEFFF] grid grid-rows-2 md:grid-rows-1 md:grid-cols-2">
       <div className="flex justify-center items-center">
         <div className="shadow-bottom-search p-3 w-fit space-y-3 text-primary dark:text-foreground shadow-primary/50">
         <h3 className="text-3xl sm:text-5xl font-thin flex flex-col">

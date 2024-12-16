@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function ReletedPages() {
   return (
-    <div className="min-h-screen px-6 py-24 sm:px-12 w-full bg-gradient-to-tr dark:from-background from-foreground from-85% dark:to-primary/20 to-[#CBEFFF] grid grid-rows-2 md:grid-rows-1 md:grid-cols-2">
+    <div className="min-h-screen px-6 py-24 sm:px-12 w-full bg-gradient-to-tr from-background from-85% dark:to-primary/20 to-[#CBEFFF] grid grid-rows-2 md:grid-rows-1 md:grid-cols-2">
     <div className="flex flex-col justify-start md:justify-center items-center">
       <div className="shadow-bottom-search shadow-primary space-y-3 p-3 text-primary dark:text-foreground">
       <h3 className=" md:text-5xl text-3xl font-extralight flex flex-col">

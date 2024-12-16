@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function QuickAction() {
   return (
-    <div className="min-h-screen w-full py-24 px-6 sm:px-12 lg:px-32 bg-gradient-to-br dark:from-background from-foreground from-85% dark:to-primary/20 to-[#CBEFFF] grid grid-rows-2 md:grid-rows-1 md:grid-cols-2">
+    <div className="min-h-screen w-full py-24 px-6 sm:px-12 lg:px-32 bg-gradient-to-br from-background from-85% dark:to-primary/20 to-[#CBEFFF] grid grid-rows-2 md:grid-rows-1 md:grid-cols-2">
       <div className="lg:relative min-h-full lg:w-[50vw] flex justify-center items-center">
       <div className=" z-20 lg:absolute left-5 top-0 flex justify-center items-center w-[80vw] sm:w-[70vw] lg:w-[585px] h-[40vh] sm:h-[50vh] lg:h-[341px] md:h-[50vh] bg-gradient-to-br dark:from-[#1D1D1D] from-[#F3F3F3] dark:to-[#454545] to-[#D2D2D2] rounded-3xl">
        <p className="md:text-lg text-sm font-extralight text-neutral-500">(Video Preview/Screenshot)</p>

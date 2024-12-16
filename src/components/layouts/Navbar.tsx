@@ -22,16 +22,16 @@ export default function Navbar({className}: {className?: string}) {
         <NavItems className='md:flex hidden' />
         <div onClick={handleClick} className={`h-[20px] md:hidden flex flex-col justify-between items-center cursor-pointer`}>
             <span
-              className={`w-[28px] h-[4px] bg-background dark:bg-foreground block rounded ${isActive ? " origin-top-left rotate-45 translate-x-1 -translate-y-[1px] transition-all duration-300 ease-in " : "rotate-0 transition-all duration-300 ease-out "}`}
+              className={`w-[28px] h-[4px] bg-foreground block rounded ${isActive ? " origin-top-left rotate-45 translate-x-1 -translate-y-[1px] transition-all duration-300 ease-in " : "rotate-0 transition-all duration-300 ease-out "}`}
             ></span>
-            <span className={`w-[28px] h-[4px] bg-background dark:bg-foreground block rounded ${isActive ? " opacity-0 transition-all duration-300 ease-in " : "opacity-100 ease-out duration-300"}`} />
+            <span className={`w-[28px] h-[4px] bg-foreground block rounded ${isActive ? " opacity-0 transition-all duration-300 ease-in " : "opacity-100 ease-out duration-300"}`} />
             <span
-              className={`w-[28px] h-[4px] bg-background dark:bg-foreground block rounded ${
+              className={`w-[28px] h-[4px] bg-foreground block rounded ${
                 isActive ? " origin-bottom-left -rotate-45 translate-x-1 translate-y-[1px] transition-all duration-300 ease-in " : " rotate-0 transition-all ease-out duration-300 "
               }`}
             ></span>
           </div>
-        <MobileNavbar setIsActive={setIsActive} className={`absolute md:hidden top-0 right-0 sm:!w-[50vw] h-screen flex flex-col gap-4 bg-bcPrimary pt-20 -z-50 ${
+        <MobileNavbar setIsActive={setIsActive} className={`absolute md:hidden top-0 right-0 sm:!w-[50vw] h-screen flex flex-col gap-4 pt-20 -z-50 ${
               isActive ? "translate-x-0 opacity-100 transition-all duration-300 ease-in " : "transition-all duration-300 ease-out opacity-0 translate-x-full"
             }`}/>
     </div>
