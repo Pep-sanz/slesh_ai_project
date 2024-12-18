@@ -12,13 +12,12 @@ export default function NavItems({className, setIsActive}: {className?:string, s
   const {setTheme, theme }=useTheme()
   return (
     <div className={`flex gap-6 px-6 ${className}`}>
-      {NAV_ITEMS.map((item) => {
+      {NAV_ITEMS.map((item, i) => {
         const isActivePath = pathname === item.href; // Cek apakah path aktif
 
         return (
-          <>
           <Link
-            key={item.href}
+            key={i}
             href={item.href}
             onClick={()=> setIsActive(false)}
             className={`text-lg font-medium transition-colors duration-200 ${
@@ -29,7 +28,6 @@ export default function NavItems({className, setIsActive}: {className?:string, s
           >
             {item.label}
           </Link>
-          </>
         );
       })}
       <button onClick={()=> setTheme(theme === "light" ? "dark" : "light")} className="bg-cyan-500 p-1 rounded-md max-w-28 text-black ">{theme === "light" ? "Dark Mode": "light Mode" }</button>
