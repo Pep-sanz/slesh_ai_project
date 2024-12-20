@@ -11,7 +11,7 @@ export default function SmartSearch() {
             <span className="font-bold ml-3 text-4xl sm:text-6xl">Smarter</span>
           </h3>
           <p className="font-extralight text-center text-neutral-500 dark:text-neutral-200">
-            X Search, Gmail Search
+            Skip the filters, search anything your way
           </p>
         </div>
       </div>

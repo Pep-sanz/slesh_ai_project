@@ -5,7 +5,7 @@ export default function QuickAction() {
   return (
     <div className="xl:min-h-screen lg:h-[85vh] w-full pt-24 xl:pb-24 px-6 sm:px-12 xl:px-32 bg-gradient-to-br from-background from-85% dark:to-primary/20 to-[#CBEFFF] grid grid-rows-2 xl:grid-rows-1 xl:grid-cols-2 grid-flow-col auto-cols-auto">
       <div className="lg:relative inset-0 min-h-full bgred lg:w-[50vw] flex justify-center items-center">
-        <div className=" z-20 lg:absolute left-5 top-0 flex justify-center items-center w-[80vw] h-[30vh] sm:w-[70vw] lg:w-[585px] sm:h-[50vh] lg:h-[341px] md:h-[50vh] bg-gradient-to-br dark:from-[#1D1D1D] from-[#F3F3F3] dark:to-[#454545] to-[#D2D2D2] rounded-3xl">
+        <div className=" z-20 lg:absolute left-5 top-0 flex justify-center items-center w-[80vw] h-[30vh] sm:w-[70vw] lg:w-[585px] sm:h-[50vh] md:h-[341px] bg-gradient-to-br dark:from-[#1D1D1D] from-[#F3F3F3] dark:to-[#454545] to-[#D2D2D2] rounded-3xl">
           <p className="md:text-lg text-sm font-extralight text-neutral-500">
             (Video Preview/Screenshot)
           </p>
@@ -28,7 +28,7 @@ export default function QuickAction() {
             className="absolute bottom-0 right-10"
           />
         </div>
-        <div className="w-[254px] h-[254px] lg:flex hidden justify-center items-center absolute -right-96 -bottom-20 xl:-right-20 xl:-bottom-24 rounded-r-3xl rounded-b-3xl">
+        <div className="w-[204px] h-[204px] lg:flex hidden justify-center items-center absolute -right-80 -bottom-3 xl:-right-14 xl:-bottom-8 rounded-r-3xl rounded-b-3xl">
           <div className="absolute inset-0 bg-white/10 backdrop-blur-md rounded-r-3xl rounded-b-3xl" />
           <Image
             src="/icons/slesh-ic.png"
@@ -45,7 +45,7 @@ export default function QuickAction() {
           <span className="md:text-6xl text-5xl font-semibold">Action</span>
         </h3>
         <p className="md:text-lg text-sm flex flex-col md:text-end font-extralight mt-4 text-neutral-500 dark:text-neutral-200">
-          Do actions quickly, <span>shortcuts across the web</span>
+          Shortcuts across the web
         </p>
       </div>
     </div>
