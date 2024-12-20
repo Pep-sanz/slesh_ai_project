@@ -12,10 +12,8 @@ export default function Home() {
       <div className="bg-grid absolute inset-0 w-full h-full"></div>
       <h5 className="font-light text-center text-[24px] sm:text-[32px] md:text-[44px] lg:text-[62px] z-20 flex flex-col italic">
         A web assistant that
-        <span className="font-semibold">
-          <span className="bg-gradient-to-r from-foreground dark:to-90% to-50% to-primary bg-clip-text text-transparent">
-            Understands you
-          </span>
+        <span className="font-semibold bg-gradient-to-r from-foreground dark:to-90% to-50% to-primary bg-clip-text text-transparent">
+          Understands you
         </span>
       </h5>
       <p className="text-center max-w-[800px] z-20 mt-10 text-base md:text-xl italic font-light dark:text-foreground text-neutral-700">
