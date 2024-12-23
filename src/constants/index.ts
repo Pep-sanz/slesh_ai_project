@@ -1,18 +1,22 @@
- export const NAV_ITEMS = [
-    {
-      label: "Home",
-      href: "/",
-    },
-    {
-      label: "Enterprise",
-      href: "/enterprise",
-    },
-    {
-      label: "About us",
-      href: "/aboutus",
-    },
-    {
-      label: "Legal",
-      href: "/legal",
-    },
-  ];
+export const NAV_ITEMS = [
+  {
+    label: 'Home',
+    href: '/',
+    isShow: true,
+  },
+  {
+    label: 'Enterprise',
+    href: '/enterprise',
+    isShow: false,
+  },
+  {
+    label: 'About us',
+    href: '/aboutus',
+    isShow: false,
+  },
+  {
+    label: 'Legal',
+    href: '/legal',
+    isShow: false,
+  },
+];

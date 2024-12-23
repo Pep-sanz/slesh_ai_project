@@ -1,7 +1,12 @@
+import { useTheme } from 'next-themes';
 import Image from 'next/image';
 import React from 'react';
+import { FaMoon } from 'react-icons/fa';
+import { LuSun } from 'react-icons/lu';
 
 export default function AskSlesh() {
+  const { setTheme, theme } = useTheme();
+
   return (
     <div className="w-full py-24 relative flex flex-col justify-center items-center dark:text-foreground text-primary">
       <div className="bg-grid absolute inset-0 w-full h-full"></div>
@@ -18,8 +23,11 @@ export default function AskSlesh() {
           Get instant answers anywhere
         </p>
       </div>
-      <button className="bg-gradient-to-r mt-3 from-[#CBEFFF] from-30% to-[#69C3FF] py-3 px-6 z-20 rounded-3xl text-cyan-700">
-        Get <span className="font-semibold text-cyan-800">Slesh</span> For Free
+      <button
+        onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
+        className="bg-gradient-to-r from-white to-primary shadow-md text-black p-3 z-20 rounded-xl w-fit mt-32 "
+      >
+        {theme === 'light' ? <FaMoon size={20} /> : <LuSun size={20} />}
       </button>
     </div>
   );

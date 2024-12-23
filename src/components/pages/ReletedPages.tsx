@@ -8,7 +8,7 @@ export default function ReletedPages() {
         <div className="shadow-bottom-search shadow-primary space-y-6 p-3 text-primary dark:text-foreground">
           <h3 className=" md:text-5xl text-3xl font-extralight flex flex-col">
             Smart
-            <span className="font-bold ml-3 text-5xl lg:text-5xl xl:text-6xl">
+            <span className="font-bold italic ml-3 text-5xl lg:text-5xl xl:text-6xl">
               Suggestions
             </span>
           </h3>
