@@ -6,9 +6,10 @@ export default function QuickAction() {
     <div className="xl:min-h-screen lg:h-[85vh] w-full pt-24 xl:pb-24 px-6 sm:px-12 xl:px-32 bg-gradient-to-br from-background from-85% dark:to-primary/20 to-[#CBEFFF] grid grid-rows-2 xl:grid-rows-1 xl:grid-cols-2 grid-flow-col auto-cols-auto">
       <div className="lg:relative inset-0 min-h-full bgred lg:w-[50vw] flex justify-center items-center">
         <div className=" z-20 lg:absolute left-5 top-0 flex justify-center items-center w-[80vw] h-[30vh] sm:w-[70vw] lg:w-[585px] sm:h-[50vh] md:h-[341px] bg-gradient-to-br dark:from-[#1D1D1D] from-[#F3F3F3] dark:to-[#454545] to-[#D2D2D2] rounded-3xl">
-          <p className="md:text-lg text-sm font-extralight text-neutral-500">
-            (Video Preview/Screenshot)
-          </p>
+          <video autoPlay muted loop className="w-full h-full object-cover">
+            <source src="/videos/web-navigation-01.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
         <div className="border lg:block hidden border-neutral-600 h-[312px] w-[538px] absolute left-56 top-32">
           <Image

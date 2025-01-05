@@ -21,9 +21,13 @@ export default function ReletedPages() {
       <div className="relative order-1 lg:order-2 flex justify-center items-center">
         <div className="border lg:block hidden border-neutral-600 h-[287.53px] w-[395.8px] top-0 -right-6 1051:w-[80%] absolute 1051:left-24" />
         <div className=" z-20 lg:absolute -left-14 lg:left-0 flex justify-center items-center lg:w-[469.98px] lg:h-[326.35px] 1051:w-[40vw] w-[80vw] xl:h-[426.35px] h-[30vh] sm:w-[70vw] sm:h-[300px] md:h-[341px]  bg-gradient-to-br dark:from-[#1D1D1D] from-[#F3F3F3] dark:to-[#454545] to-[#D2D2D2] rounded-3xl">
-          <p className="text-lg font-extralight text-neutral-500">
+          <video autoPlay muted loop className="w-full h-full object-cover">
+            <source src="/videos/web-navigation-01.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          {/* <p className="text-lg font-extralight text-neutral-500">
             (Video Preview/Screenshot)
-          </p>
+          </p> */}
         </div>
         <div className="border lg:block hidden border-neutral-600 h-[287.53px] w-[405.8px] absolute -left-20 bottom-6 xl:-left-6 xl:bottom-6 1051:w-[80%] 1051:bottom-0" />
         <div className="w-[131.27px] h-[131.27px] hidden lg:flex justify-center items-center absolute -right-6 1051:right-0 bottom-6 z-20 rounded-3xl">
